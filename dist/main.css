@@ -1,0 +1,38 @@
+.backgroundNavbar {
+    background-color: #141414 !important;
+}
+@media (max-width: 640px) { 
+
+    .swiper-container img{
+        max-height: 250px !important;
+    }
+    
+    .swiper-container img{
+      height: 250px !important;
+    }
+    .content img{
+        height: 150px !important;
+    }
+    .content img{
+        min-height: 150px !important;
+    }
+    .content h1{
+        font-size: 17px !important;
+        font-weight: bold !important;
+    }
+    .content a{
+        font-size: 12px !important;
+    }
+    
+ }
+ @media (min-width: 740px) { 
+
+ .content h1{
+     font-size: 24px !important;
+     font-weight: bold;
+ }
+ 
+ .content img{
+    height: 200px ;
+}
+ }
